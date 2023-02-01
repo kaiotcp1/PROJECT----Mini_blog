@@ -46,6 +46,7 @@ function App() {
         <Navbar />
         <div className="container">
           <Routes>
+            {/* testes de fechamento... */}
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/login' element={!user ? <Login /> : <Navigate to="/"></Navigate>} ></Route>
