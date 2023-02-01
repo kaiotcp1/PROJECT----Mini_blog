@@ -11,10 +11,13 @@ import About from './pages/About/About';
 import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 
+// Context
+import { AuthProvider } from './context/AuthContext';
 
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <BrowserRouter>
         <Navbar />
         <div className="container">
@@ -27,6 +30,7 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }
