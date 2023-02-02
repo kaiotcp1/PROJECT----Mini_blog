@@ -1,13 +1,9 @@
-import React from 'react'
-import styles from './Login.module.css';
-
+import styles from "./Login.module.css";
 
 import { useEffect, useState } from "react";
 import { useAuthentication } from "../../hooks/useAuthentication";
 
-
 const Login = () => {
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -30,15 +26,15 @@ const Login = () => {
   };
 
   useEffect(() => {
+    console.log(authError);
     if (authError) {
       setError(authError);
     }
   }, [authError]);
 
-
   return (
     <div className={styles.login}>
-        <h1>Entrar</h1>
+      <h1>Entrar</h1>
       <p>Faça o login para poder utilizar o sistema</p>
       <form onSubmit={handleSubmit}>
         <label>
@@ -72,7 +68,7 @@ const Login = () => {
         {error && <p className="error">{error}</p>}
       </form>
     </div>
-  )
-}
+  );
+};
 
-export default Login
+export default Login;
