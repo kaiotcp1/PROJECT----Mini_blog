@@ -7,7 +7,7 @@ Mini blog consiste em uma aplicação web, criada no curso de React pelo
 [Matheus Battisti](https://www.udemy.com/course/react-do-zero-a-maestria-c-hooks-router-api-projetos/ "Curso udemy")
 focado em unir todo o conhecimento obtido até aquele momento do curso e adicionar novos conhecimentos.
 
-A aplicação consiste em um blog social onde usuário pode postar e visualizar posts de outros usuarios e fazer pesquisar de post por meio de suas tags.
+A aplicação consiste em um blog social onde usuário pode postar e visualizar posts de outros usuarios e fazer pesquisas de post por meio de suas tags.
 aplicação utiliza de:<br><br>
 rotas protegias; <br>
 autenticação de usuário;<br>
