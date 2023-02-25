@@ -1,5 +1,8 @@
 # Mini Blog
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/kaiotcp1/mini_blog/blob/main/license) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2ab76425-96ef-43cb-8591-fa08f689a817/deploy-status)](https://app.netlify.com/sites/mini-blog-kaio/deploys)
+
+
 
 # Sobre o projeto
 
@@ -15,11 +18,13 @@ login;<br>
 cadastro;<br>
 busca;
 
+[Acesse aqui](https://mini-blog-kaio.netlify.app "Curso udemy")
 
 
 
 ## Preview
-![Preview](https://media3.giphy.com/media/QvwfTPDxxE4yJrkQe6/giphy.gif)
+![Preview](https://media3.giphy.com/media/QvwfTPDxxE4yJrkQe6/giphy.gif) 
+
 
 
 
