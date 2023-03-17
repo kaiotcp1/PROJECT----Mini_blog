@@ -30,7 +30,7 @@ busca;
 
 # Tecnologias utilizadas
 ## Back end
-- Firebase
+- Firebase >> Expired 😢
 ## Front end
 - HTML / CSS / JS /
 - ReactJS
